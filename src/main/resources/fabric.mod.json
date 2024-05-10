@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "TheOdysseyCoreMod",
+  "version": "${version}",
+  "name": "TheOdysseyCoreMod",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/tacos/TheOdysseyCoreMod"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/TheOdysseyCoreMod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "therealzpope.org.theodysseycoremod.client.TheOdysseyCoreModClient"
+    ],
+    "main": [
+      "therealzpope.org.theodysseycoremod.TheOdysseyCoreMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
